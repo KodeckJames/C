@@ -1,13 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void birthday(){
+void birthday(char name[], int age) {  
     printf("\nHappy birthday to you!");
     printf("\nHappy birthday to you!");
-    printf("\nHappy birthday dear ... YOU!");
-    printf("\nHappy birthday to you!\n");
+    printf("\nHappy birthday dear %s!\n", name);  // Fixed spacing
+    printf("You are %d years old now.\n", age);  // Added newline
+    printf("Happy birthday to you!\n");
 }
 
-int main(){
+int main() {
+    int age = 39;
+    //char name[] = {'J', 'J', '\0'};  Explicit initialization
+    char name[] = "JJ";  // Explicit initialization
+
+    birthday(name, age);
+    birthday(name, age);
+    birthday(name, age);
+
+   
     // Function => It's a small section of code that's executed whenever we call it ie when we invoke a function. When we compile and run a C program, we begin with invoking the main function
 
     //Syntax of a Function:
@@ -123,11 +133,5 @@ int main(){
 
     
 */
-    
-
-    birthday();
-    birthday();
-    birthday();
-
     return 0;
 }
