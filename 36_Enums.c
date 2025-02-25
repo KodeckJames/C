@@ -13,7 +13,7 @@ int main(){
     if(today==Sun || today==Sat){
         printf("\nTake a break!");
     }else{
-        printf("\nHave to go to school!!!");
+        printf("Have to go to school!!!");
     }
 
     return 0;
