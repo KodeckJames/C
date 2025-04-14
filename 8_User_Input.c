@@ -14,7 +14,7 @@ int main()
 
     char name[25];
     int age;
-    printf("Enter tour age: ");
+    printf("Enter your age: ");
     scanf("%d", &age);
     printf("You are %d years old", age);
     printf("Enter your name: ");
