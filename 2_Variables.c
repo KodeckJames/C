@@ -3,7 +3,7 @@ int main()
 {
     /*
     Variable - An allocated space in memory to store a value
-    We need to declare what type of dat we are storing
+    We need to declare what type of data we are storing
     Variables are defined in 2 ways, declaration + initialization
     */
 
